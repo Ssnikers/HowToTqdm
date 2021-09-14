@@ -1,0 +1,19 @@
+#tqdm - Shows the progress of an action in the progress bar view
+#Let's see some code!
+
+import random
+from time import sleep
+from tqdm import tqdm
+
+init()
+
+print("Your Text ...")
+for i in tqdm(range(100), colour="green"):
+	sleep(random.uniform(0.01, 0.1))
+  
+ #Now you have seen the usual code for tqdm
+ #Now let's take it in order
+ #range - up to how many percent will the progress bar go
+ #colour - color of the progress bar
+ #sleep(random.uniform(0.01, 0.1)) - 0.01, 0.1 This is the time for the progress bar to fill up
+ #ItsAfull)
